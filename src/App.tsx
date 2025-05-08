@@ -14,6 +14,7 @@ export default function App() {
       theme={Theme.Light}
       clientId={CLIENT_ID}
       chainTypes={["bitcoin"]}
+      _noOtherWallets={true}
     >
       <ChildComponent />
     </TomoContextProvider>
